@@ -1,4 +1,3 @@
-My-Flutter-Journey
 My 100 Days of Code Journey In Flutter.
 
 Master Branch is Empty.
