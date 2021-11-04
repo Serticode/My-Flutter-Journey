@@ -1,18 +1,18 @@
-name: treyon
+name: concentric
 description: A new Flutter project.
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  charts_flutter: ^0.10.0
-  fl_chart: ^0.12.0
 
   cupertino_icons: ^1.0.2
+  concentric_transition: ^1.0.1
+
 
 dev_dependencies:
   flutter_test:
@@ -22,14 +22,3 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
-flutter:
-  uses-material-design: true
-  assets:
-    - images/
-
-  fonts:
-    - family: Fira Sans Condensed
-      fonts:
-        - asset: font/FiraSansCondensed-Italic.ttf
-        - asset: font/FiraSansCondensed-Medium.ttf
-        - asset: font/FiraSansCondensed-Regular.ttf
