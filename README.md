@@ -22,6 +22,5 @@ Thanks for growing with me.
 
 ### 3. Concentric Transtions
 #### Branch Name: Concentric Transitions
-
-<img src="https://user-images.githubusercontent.com/66566368/140237035-122316c5-a6f3-46cb-a37e-a594e06c8526.png" height="600">   <img src="https://user-images.githubusercontent.com/66566368/140237079-9f93968b-de81-4186-9213-2f8dda762007.png" height="600">   <video src="https://user-images.githubusercontent.com/66566368/140238096-6f965ce9-468a-4b3b-a60e-0811a7edddb4.MP4
+<video src="https://user-images.githubusercontent.com/66566368/140238096-6f965ce9-468a-4b3b-a60e-0811a7edddb4.MP4
 ">
