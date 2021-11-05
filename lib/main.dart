@@ -43,9 +43,8 @@ class _ConcentricTransitionsState extends State<ConcentricTransitions> {
         Colors.green,
         Colors.orange,
       ],
-      onFinish: () => Navigator.of(context).push(
-        MaterialPageRoute(builder: (context) => HomeScreen())
-      ),
+      onFinish: () => Navigator.of(context)
+          .push(MaterialPageRoute(builder: (context) => HomeScreen())),
       radius: 30.0,
       verticalPosition: 0.88,
       itemCount: 4,

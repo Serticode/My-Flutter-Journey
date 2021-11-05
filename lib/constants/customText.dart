@@ -48,7 +48,7 @@ class CustomText extends StatelessWidget {
                   TypewriterAnimatedText(
                     subTitle,
                     cursor: " | ",
-                    curve: Curves.easeOutSine ,
+                    curve: Curves.easeOutSine,
                     speed: const Duration(milliseconds: 200),
                     textAlign: TextAlign.center,
                     textStyle: TextStyle(
