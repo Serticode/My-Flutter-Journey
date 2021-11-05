@@ -12,11 +12,23 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   concentric_transition: ^1.0.1
+  animated_text_kit: ^4.2.1
+
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

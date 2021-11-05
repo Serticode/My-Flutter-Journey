@@ -38,7 +38,7 @@ class SubtitleData {
     },
     {
       "subtitles":
-          "Knowing that you'll have mine in return, the promise of a loving, sound mind ..."
+          "Knowing that you'll have mine in return; the promise of a loving, sound mind ..."
     },
     {"subtitles": "... as your partner, waltzing through life's beating. "},
   ];

@@ -1,6 +1,7 @@
-import 'package:concentric/customText.dart';
-import 'package:concentric/imageLinks.dart';
-import 'package:concentric/textData.dart';
+import 'package:concentric/constants/customText.dart';
+import 'package:concentric/constants/imageLinks.dart';
+import 'package:concentric/constants/textData.dart';
+import 'package:concentric/screens/homeScreen.dart';
 import 'package:concentric_transition/concentric_transition.dart';
 import 'package:flutter/material.dart';
 
@@ -42,6 +43,9 @@ class _ConcentricTransitionsState extends State<ConcentricTransitions> {
         Colors.green,
         Colors.orange,
       ],
+      onFinish: () => Navigator.of(context).push(
+        MaterialPageRoute(builder: (context) => HomeScreen())
+      ),
       radius: 30.0,
       verticalPosition: 0.88,
       itemCount: 4,
@@ -59,9 +63,9 @@ class _ConcentricTransitionsState extends State<ConcentricTransitions> {
               subTitle: _theSubtitles[index]["subtitles"],
               theTitleColour: _theTitleColours[index]["colours"],
               theSubtitleColour: _theSubtitleColours[index]["colours"],
-              theTitleFontSize: 30,
+              theTitleFontSize: 36,
               theSubTitleFontSize: 24.0,
-            )
+            ),
           ],
         );
       },
