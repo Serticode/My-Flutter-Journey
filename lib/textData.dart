@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class TitleData {
   get titles => _theTitles;
   List _theTitles = [
@@ -8,7 +9,6 @@ class TitleData {
     {"titles": "Me ?"},
   ];
 }
-
 
 class TitleColours {
   get colours => _theTitleColours;
@@ -27,7 +27,6 @@ class TitleColours {
     },
   ];
 }
-
 
 class SubtitleData {
   get subtitles => _theSubtitles;
@@ -49,12 +48,15 @@ class SubtitleColours {
   get colours => _theSubtitleColours;
   List _theSubtitleColours = [
     {
-      "colours" : Colors.blue.shade900,
-    },{
+      "colours": Colors.blue.shade900,
+    },
+    {
       "colours": Colors.white,
-    },{
+    },
+    {
       "colours": Colors.white,
-    },{
+    },
+    {
       "colours": Colors.black87,
     },
   ];

@@ -4,7 +4,7 @@ class CustomText extends StatelessWidget {
   final String title;
   final String subTitle;
   final Color theTitleColour;
-    final Color theSubtitleColour;
+  final Color theSubtitleColour;
   final double theTitleFontSize;
   final double theSubTitleFontSize;
   CustomText({
@@ -30,24 +30,19 @@ class CustomText extends StatelessWidget {
                 title,
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: theTitleFontSize,
-                  fontWeight: FontWeight.w700,
-                  color: theTitleColour,
-                                    decoration: TextDecoration.none
-
-                ),
+                    fontSize: theTitleFontSize,
+                    fontWeight: FontWeight.w700,
+                    color: theTitleColour,
+                    decoration: TextDecoration.none),
               ),
-              
               Text(
                 subTitle,
-                                textAlign: TextAlign.center,
-
+                textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: theSubTitleFontSize,
-                  fontWeight: FontWeight.w400,
-                  color: theSubtitleColour,
-                  decoration: TextDecoration.none
-                ),
+                    fontSize: theSubTitleFontSize,
+                    fontWeight: FontWeight.w400,
+                    color: theSubtitleColour,
+                    decoration: TextDecoration.none),
               ),
             ]),
       ),

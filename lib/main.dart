@@ -53,10 +53,7 @@ class _ConcentricTransitionsState extends State<ConcentricTransitions> {
               _theLinks[index]["images"],
               width: 300,
             ),
-            SizedBox(
-              height: MediaQuery.of(context).size.height / 20
-            ),
-
+            SizedBox(height: MediaQuery.of(context).size.height / 20),
             CustomText(
               title: _theTitles[index]["titles"],
               subTitle: _theSubtitles[index]["subtitles"],
