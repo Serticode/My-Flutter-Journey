@@ -36,7 +36,7 @@ class _ConcentricTransitionsState extends State<ConcentricTransitions> {
         return Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Image.network(
+            Image.asset(
               _theLinks[index]["images"],
               width: 300,
             ),
