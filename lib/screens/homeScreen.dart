@@ -1,4 +1,5 @@
 import 'package:concentric/widgets/firstWidget_homeScreen.dart';
+import 'package:concentric/widgets/secondWidget_homeScreen.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -17,6 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             FirstWidget(),
+            SecondWidget(),
           ],
         ),
       ),
