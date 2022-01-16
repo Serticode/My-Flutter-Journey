@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:treyon/screens/welcome_screen.dart';
 
 import 'screens/welcome_screen.dart';
 
