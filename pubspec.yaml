@@ -1,4 +1,4 @@
-name: treyon
+name: finance_layout
 description: A new Flutter project.
 
 version: 1.0.0+1
@@ -11,6 +11,10 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  pulsing_button: ^0.0.6
+  salomon_bottom_bar: ^3.2.0
+  font_awesome_flutter: ^9.2.0
+  fl_chart: ^0.41.0
 
 dev_dependencies:
   flutter_test:
