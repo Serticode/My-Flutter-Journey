@@ -1,3 +1,6 @@
+///Added a finance layout design found on dribbble.com.
+///Some comments on FL_Charts are left within the code for reference purpose.
+
 import 'package:finance_layout/welcome_page.dart';
 import 'package:flutter/material.dart';
 import 'package:pulsing_button/pulsing_button.dart';
